@@ -625,75 +625,76 @@ li {
 
 /* content5 */
 
-.content_5 {
-    width: 100%;
+
+/* s */
+
+.content_5 .red {
+    margin: 0 auto;
+}
+
+.email-container {
+    padding: 2% 0;
+    margin: 0 auto !important;
+}
+
+.email_letter {
     margin: auto;
-    padding: 10px;
 }
 
-.ct5_container {
-    display: flex;
+.email_text {
+    margin: 0 auto;
 }
 
-.ct5_container .email_letter {
-    display: flex;
-    width: 100%;
-    height: auto;
-}
-
-.abc {
-    margin-top: 40px;
-    display: flex;
-    margin: 20px 0 0 40px
+.email_text h5 {
+    text-align: center;
+    margin: 15px auto;
+    line-height: 150%;
+    font-size: 10px;
+    color: rgb(177, 174, 174);
 }
 
 .email_enter {
     display: flex;
 }
 
-.email_enter button {
-    position: relative;
-    left: -40px;
-    border-radius: 25px;
-    background-color: yellowgreen;
-    font-size: 20px;
+.ct5_img {
+    max-width: 100%;
+    width: 150px !important;
+    height: auto;
+}
+
+.ct5_content {
+    width: 100%;
+}
+
+.ct5_content h2 {
+    width: 100%;
+}
+
+.ct5_content h5 {
+    width: 100%;
+    color: rgb(78, 136, 70);
 }
 
 .email_enter input {
+    border-radius: 25px;
+    font-size: 20px;
     border-radius: 25px;
     margin: auto;
     height: 5%;
 }
 
-.ct5_content {
-    margin-left: 10px;
+.email_enter button {
+    border-radius: 20px;
+    margin-left: -5.2%;
 }
 
-.ct5_content h5 {
-    color: rgb(69, 104, 46);
+.blue {
+    margin: 0 auto;
 }
 
-.ct5_content h2 {
-    font-size: 28px;
-}
 
-.email_text {
-    text-align: center;
-    margin-right: 100px;
-    margin: auto !important;
-}
-
-.email_text input {
-    border-radius: 25px;
-    font-size: 20px;
-}
-
-.email_text h5 {
-    text-align: center;
-    margin-top: 15px;
-    line-height: 150%;
-    font-size: 10px;
-}
+/* s */
 
 
 /* end-content */
@@ -755,7 +756,11 @@ li {
     background-color: rgb(214, 214, 214);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    padding-left: 150px;
+}
+
+.green {
+    margin: 0 auto;
+    padding: 2% 0 0 13% !important;
 }
 
 .footer_content {
