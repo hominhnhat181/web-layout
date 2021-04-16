@@ -297,9 +297,9 @@ li {
 }
 
 .content2_top_right {
-    float: left;
     width: 100%;
-    margin: auto;
+    height: 100%;
+    text-align: center !important;
 }
 
 .content2_top_left h1 {
@@ -519,7 +519,6 @@ li {
     margin: auto;
     padding-bottom: 60px;
     background-color: white;
-    border-bottom: 4px outset rgba(255, 255, 255, 0.274);
 }
 
 .content4_ct {
@@ -635,6 +634,7 @@ li {
 .email-container {
     padding: 2% 0;
     margin: 0 auto !important;
+    border-top: 4px outset rgba(255, 255, 255, 0.274) !important;
 }
 
 .email_letter {
@@ -782,7 +782,7 @@ li {
 }
 
 .end {
-    margin-top: 20px;
+    padding-top: 40px;
     text-align: center;
     padding-bottom: 30px;
 }
