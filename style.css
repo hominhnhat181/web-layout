@@ -104,6 +104,10 @@ li {
     width: 100%;
 }
 
+.menu li {
+    padding: 0 0 20px 0;
+}
+
 .menu li:hover .dropdown-menu {
     display: block;
 }
@@ -155,7 +159,7 @@ li {
     height: auto;
     width: 75%;
     margin: auto !important;
-    margin-right: 150px;
+    margin-ritgh: 150px;
 }
 
 .bottom_mid_menu {
@@ -185,10 +189,14 @@ li {
 
 .menu3 {
     padding-left: 0;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     position: absolute;
     top: 72%;
     left: 100%;
+}
+
+.menu3 a {
+    padding: 10px 10px;
 }
 
 .btn-header {
@@ -217,6 +225,7 @@ li {
     width: 100%;
     height: auto;
     position: relative;
+    top: -25px;
 }
 
 .slider-img img {
