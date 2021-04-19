@@ -59,28 +59,28 @@ li {
 /* menu */
 
 @media screen and (min-width: 1200px) {
-    ul.menu li:last-child {
+    li.btn-header {
         position: relative;
         right: -30%;
     }
 }
 
 @media screen and (max-width: 1350px) {
-    ul.menu li:last-child {
+    li.btn-header {
         position: relative;
         right: -25%;
     }
 }
 
 @media screen and (max-width: 1201px) {
-    ul.menu li:last-child {
+    li.btn-header {
         position: relative;
         right: -15%;
     }
 }
 
 @media screen and (max-width: 1060px) {
-    ul.menu li:last-child {
+    li.btn-header {
         position: relative;
         right: -10%;
     }
@@ -99,17 +99,16 @@ li {
     }
 }
 
-.menu li:last-child {
-    position: relative;
-    right: -30%;
-}
-
 .bottom_mid_menu a {
     font-size: 1vw;
     width: 100%;
 }
 
-.bottom_mid_menu li:hover .dropdown-menu {
+.menu li:hover .dropdown-menu {
+    display: block;
+}
+
+.menu .dropdown-menu .menu2 li:hover .menu3 {
     display: block;
 }
 
@@ -117,17 +116,19 @@ li {
     display: none;
 }
 
-#drp2 {
+.menu3 {
     display: none;
 }
 
-#x:hover #drp2 {
-    display: block !important;
+.menu2 {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
 }
 
 .nav {
     float: right !important;
     padding-right: 120px;
+    display: flex;
 }
 
 #drp2 {
@@ -153,7 +154,7 @@ li {
     max-width: 100%;
     height: auto;
     width: 75%;
-    margin: 0 auto !important;
+    margin: auto !important;
     margin-right: 150px;
 }
 
@@ -178,7 +179,21 @@ li {
     margin: auto 0;
 }
 
+#level {
+    position: relative;
+}
+
+.menu3 {
+    padding-left: 0;
+    background-color: aliceblue;
+    position: absolute;
+    top: 72%;
+    left: 100%;
+}
+
 .btn-header {
+    position: relative;
+    right: -80%;
     border: none;
     outline: none;
     padding-left: 100px;
