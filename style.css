@@ -85,7 +85,7 @@ li {
         right: -10%;
     }
     div.logo img {
-        width: 50%;
+        width: 100%;
     }
 }
 
@@ -93,6 +93,9 @@ li {
     nav.nav {
         /* float: right !important;  */
         padding-right: 0;
+    }
+    div.logo img {
+        width: 75%;
     }
 }
 
@@ -149,7 +152,7 @@ li {
 .bottom_left_logo img {
     max-width: 100%;
     height: auto;
-    width: 100%;
+    width: 75%;
     margin: 0 auto !important;
     margin-right: 150px;
 }
@@ -175,6 +178,8 @@ li {
 }
 
 .btn-header {
+    border: none;
+    outline: none;
     padding-left: 100px;
     background-color: red;
     padding: 8px 20px;
@@ -273,6 +278,9 @@ li {
         font-size: 20px !important;
         position: relative;
         right: 0%;
+    }
+    div.logo {
+        text-align: center;
     }
 }
 
