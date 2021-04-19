@@ -175,6 +175,7 @@ li {
 
 .nav-item {
     float: left;
+    margin: auto 0;
 }
 
 .btn-header {
