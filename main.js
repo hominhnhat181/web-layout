@@ -1,5 +1,4 @@
 $('.object_logo .col-flex').slick({
-
     speed: 300,
     lazyLoad: 'ondemand',
     slidesToShow: 5,
@@ -32,10 +31,12 @@ $('.object_logo .col-flex').slick({
         // instead of a settings object
     ]
 });
+document.querySelector('#megax').addEventListener("click", function() {
+    document.querySelector('.top_header').style.display = "none";
+});
 
 
-
-// ssssssssssssss
+// drop
 const accordionHeadingEls = document.querySelectorAll(".accordion__heading");
 
 function accordion() {
@@ -63,3 +64,14 @@ function accordion() {
     }
 }
 accordion();
+// asr
+// document.querySelector('#search').addEventListener("click", function() {
+//     document.querySelector('.mid__menu').style.display = "none";
+//     document.querySelector('.input-group').style.display = "block";
+// });
+// search
+function search() {
+    document.querySelector('.search__container').style.display = "block";
+    document.querySelector('.mid__menu-object').style.display = "none";
+
+}
