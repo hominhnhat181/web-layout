@@ -42,17 +42,19 @@ const accordionHeadingEls = document.querySelectorAll(".accordion__heading");
 function accordion() {
     for (let item of accordionHeadingEls) {
         let accordionIcon = item.lastElementChild;
-
         item.addEventListener("click", function() {
             let accordionDetails = this.nextElementSibling;
-            item.classList.toggle("accordion__heading--active");
+
             for (let item2 of accordionHeadingEls) {
                 if (item2 != item) {
                     item2.nextElementSibling.style.maxHeight = null;
                     item2.lastElementChild.classList.remove("accordion__icon--turn");
                     item2.classList.remove('accordion__heading--active');
+
+                    // item2.classList.remove('show--active');
                 }
             }
+            item.classList.toggle("accordion__heading--active");
 
             accordionIcon.classList.toggle("accordion__icon--turn");
             if (accordionDetails.style.maxHeight != 0) {
@@ -75,3 +77,6 @@ function search() {
     document.querySelector('.mid__menu-object').style.display = "none";
 
 }
+$('.accordion__heading').click(function() {
+    $(this).find('i').toggleClass('fas fa-plus fas fa-minus');
+});
