@@ -74,7 +74,12 @@ body {
     }
 }
 
-@media (min-width: 576px) {}
+@media (max-width: 576px) {
+    div.green {
+        text-align: center;
+        padding: 40px 0 0 35px !important;
+    }
+}
 
 @media (max-width: 768px) {
     .object__menu2,
